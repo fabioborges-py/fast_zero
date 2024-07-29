@@ -38,6 +38,7 @@ test = 'pytest -s -x --cov=fast_zero -vv'
 post_test = 'coverage html'
 lint = 'ruff check . && ruff check . --diff'
 format = 'ruff check . --fix && ruff format .'
+push = 'git push --set-upstream origin master'
 
 [build-system]
 requires = ["poetry-core"]
